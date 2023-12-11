@@ -1,4 +1,5 @@
-# Week8
+# Expense Tracker
+A naive and simple expense tracker to keep track of your expenses and incomes.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
 
