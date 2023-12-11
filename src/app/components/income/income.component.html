@@ -1,0 +1,16 @@
+<div class="income-container">
+<h2>Add Income</h2>
+<div>
+  <input [(ngModel)]="incomeDescription" type="text" placeholder="Description" />
+  <input [(ngModel)]="incomeValue" type="number" placeholder="Value" />
+  <button id="income-btn" (click)="addIncome()">Add</button>
+</div>
+<br />
+
+<h2>Income List</h2>
+<ul>
+  <li *ngFor="let income of incomes">{{ income.description }} - ${{ income.value }}
+    <button id="delete-btn" (click)="deleteIncome(income)">Delete</button>
+  </li>
+</ul>
+</div>

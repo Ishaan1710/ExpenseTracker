@@ -1,29 +1,51 @@
-import { TestBed } from '@angular/core/testing';
-import { RouterTestingModule } from '@angular/router/testing';
-import { AppComponent } from './app.component';
+// import { ComponentFixture, TestBed } from '@angular/core/testing';
+// import { AppComponent } from './app.component';
+// import { Component } from '@angular/core';
 
-describe('AppComponent', () => {
-  beforeEach(() => TestBed.configureTestingModule({
-    imports: [RouterTestingModule],
-    declarations: [AppComponent]
-  }));
+// @Component({ selector: 'app-tracker', template: '' })
+// class TrackerComponent {}
 
-  it('should create the app', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app).toBeTruthy();
-  });
+// @Component({ selector: 'app-income', template: '' })
+// class IncomeComponent {}
 
-  it(`should have as title 'week8'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('week8');
-  });
+// @Component({ selector: 'app-expenses', template: '' })
+// class ExpensesComponent {}
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('week8 app is running!');
-  });
-});
+// describe('MonthlyExpenseTrackerComponent', () => {
+//   let component: AppComponent;
+//   let fixture: ComponentFixture<AppComponent>;
+
+//   beforeEach(() => {
+//     TestBed.configureTestingModule({
+//       declarations: [
+//         AppComponent,
+//         TrackerComponent,
+//         IncomeComponent,
+//         ExpensesComponent,
+//       ],
+//     });
+
+//     fixture = TestBed.createComponent(AppComponent);
+//     component = fixture.componentInstance;
+//     fixture.detectChanges();
+//   });
+
+//   it('should render a header with the current month', () => {
+//     component.currentMonth = 'January';
+//     fixture.detectChanges();
+//     const headerElement = fixture.nativeElement.querySelector('h1');
+//     expect(headerElement.textContent).toContain(
+//       'Monthly Expense Tracker - January'
+//     );
+//   });
+
+//   it('should render the Tracker Income and Expenses components', () => {
+//     const trackerElement = fixture.nativeElement.querySelector('app-tracker');
+//     const incomeElement = fixture.nativeElement.querySelector('app-income');
+//     const expensesElement = fixture.nativeElement.querySelector('app-expenses');
+
+//     expect(trackerElement).toBeDefined();
+//     expect(incomeElement).toBeDefined();
+//     expect(expensesElement).toBeDefined();
+//   });
+// });

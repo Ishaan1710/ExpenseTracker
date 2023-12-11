@@ -1,0 +1,53 @@
+.income-container {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 100%;
+    /* background-color: rgb(255 255 255 / 49%); */
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border-width: 0px;
+    margin-right: 10px;
+    font-size: 17px;
+    border: 1px solid black;
+}
+
+button{
+    width: 80px;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+h2{
+    color:  rgb(16, 235, 16);
+}
+
+li{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#delete-btn{
+    background-color: blue;
+    color: white;
+}
+
+#delete-btn:hover {
+    background-color: yellow;
+    color: black;
+}

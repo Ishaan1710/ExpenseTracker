@@ -1,0 +1,18 @@
+.expense-tracker-container{
+    font-size: 30px;
+    color: white;
+}
+.main-card{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    min-width: 25vw;
+}
+
+.income-style{
+    color:rgb(16, 235, 16);
+}
+
+.expense-style{
+    color: rgb(255, 0, 0);
+}
